@@ -16,6 +16,6 @@ final_price = calculate_discount(price, discount_percent)
 
 #Print the result
 if discount_percent >= 20:
-    print(f"Discount applied. Final price: ${final_price}")
+    print(f"Discount applied. Final price: Ksh.{final_price:.2f}")
 else:
-    print(f"No discount applied. Price remains: ${final_price}")
+    print(f"No discount applied. Price remains: Ksh.{final_price:.2f}")
